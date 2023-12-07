@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.chimoy.ui.home.HomeFragment"
+        android:label="@string/menu_kasir"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.example.chimoy.ui.keranjang.KeranjangFragment"
+        android:label="@string/menu_keranjang"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.chimoy.ui.riwayat.RiwayatFragment"
+        android:label="@string/menu_riwayat"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_money"
+        android:name="com.example.chimoy.ui.keuangan.MoneyFragment"
+        android:label="@string/menu_keuangan"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_box"
+        android:name="com.example.chimoy.ui.produk.ProdukFragment"
+        android:label="@string/menu_topproduk"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.chimoy.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
