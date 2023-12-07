@@ -25,6 +25,9 @@
             android:name=".ui.logout.LogoutFragment"
             android:exported="false" />
         <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
             android:name=".ui.produk.ProdukFragment"
             android:exported="false" />
         <activity
@@ -32,11 +35,12 @@
             android:exported="false" />
         <activity
             android:name=".LandingPage"
+            android:label="@string/app_name"
             android:exported="false"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true"
             android:label="@string/app_name"
+            android:exported="true"
             android:theme="@style/Theme.ChiMoy.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
