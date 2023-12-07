@@ -13,8 +13,26 @@
         android:theme="@style/Theme.ChiMoy"
         tools:targetApi="31">
         <activity
-            android:name=".ui.keranjang.MainKeranjang"
+            android:name=".ui.keranjang.KeranjangFragment"
             android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.keuangan.MoneyFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.logout.LogoutFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.produk.ProdukFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.riwayat.RiwayatFragment"
+            android:exported="false" />
+        <activity
+            android:name=".LandingPage"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

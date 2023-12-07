@@ -15,29 +15,29 @@
         android:id="@+id/nav_shop"
         android:name="com.example.chimoy.ui.keranjang.KeranjangFragment"
         android:label="@string/menu_keranjang"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_keranjang" />
 
     <fragment
         android:id="@+id/nav_history"
         android:name="com.example.chimoy.ui.riwayat.RiwayatFragment"
         android:label="@string/menu_riwayat"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_riwayat" />
 
     <fragment
         android:id="@+id/nav_money"
         android:name="com.example.chimoy.ui.keuangan.MoneyFragment"
         android:label="@string/menu_keuangan"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_money" />
 
     <fragment
         android:id="@+id/nav_box"
         android:name="com.example.chimoy.ui.produk.ProdukFragment"
         android:label="@string/menu_topproduk"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_produk" />
 
     <fragment
         android:id="@+id/nav_logout"
         android:name="com.example.chimoy.ui.logout.LogoutFragment"
         android:label="@string/menu_logout"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_logout" />
 </navigation>
