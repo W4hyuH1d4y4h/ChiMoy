@@ -31,6 +31,10 @@
             android:name=".ui.produk.ProdukFragment"
             android:exported="false" />
         <activity
+            android:name=".ui.menu.TambahMenu"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false" />
+        <activity
             android:name=".ui.riwayat.RiwayatFragment"
             android:exported="false" />
         <activity
