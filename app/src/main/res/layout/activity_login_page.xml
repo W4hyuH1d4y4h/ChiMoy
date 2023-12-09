@@ -69,18 +69,14 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/btn_Masuk"
             android:layout_width="120dp"
             android:layout_height="48dp"
             android:backgroundTint="#FFDE00"
-            android:id="@+id/btnMasuk"
             android:text="Masuk"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:layout_gravity="end"/>
 
-
     </LinearLayout>
-
-
-
 </LinearLayout>

@@ -10,25 +10,29 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ChiMoy"
-        tools:targetApi="31">
+        android:theme="@style/Theme.ChiMoy">
         <activity
             android:name=".ui.keranjang.KeranjangFragment"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false" />
         <activity
             android:name=".ui.home.HomeFragment"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false" />
         <activity
             android:name=".ui.keuangan.MoneyFragment"
             android:exported="false" />
         <activity
             android:name=".ui.logout.LogoutFragment"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false" />
         <activity
             android:name=".LoginPage"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false" />
         <activity
             android:name=".ui.produk.ProdukFragment"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false" />
         <activity
             android:name=".ui.menu.TambahMenu"
@@ -36,13 +40,14 @@
             android:exported="false" />
         <activity
             android:name=".ui.riwayat.RiwayatFragment"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false" />
         <activity
-            android:name=".LandingPage"
-            android:label="@string/app_name"
+            android:name=".MainActivity"
+            android:theme="@style/Theme.ChiMoy"
             android:exported="false"/>
         <activity
-            android:name=".MainActivity"
+            android:name=".LandingPage"
             android:label="@string/app_name"
             android:exported="true"
             android:theme="@style/Theme.ChiMoy.NoActionBar">

@@ -14,6 +14,7 @@ public class LoginPage extends AppCompatActivity {
     // Deklarasikan elemen-elemen UI, seperti outletEditText dan karyawanEditText, di sini
     private EditText outletEditText;
     private EditText karyawanEditText;
+    private Button btn_Masuk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,21 +25,14 @@ public class LoginPage extends AppCompatActivity {
         outletEditText = findViewById(R.id.outlet);
         karyawanEditText = findViewById(R.id.karyawan);
 
-        Button masukButton = findViewById(R.id.btnMasuk);
-        masukButton.setOnClickListener(new View.OnClickListener() {
+        btn_Masuk = findViewById(R.id.btn_Masuk);
+        btn_Masuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Dapatkan nilai outlet dan karyawan dari input pengguna
                 String outlet = outletEditText.getText().toString();
                 String karyawan = karyawanEditText.getText().toString();
-
-                // Lakukan verifikasi outlet dan karyawan (sesuai logika aplikasi Anda)
-
-                // Contoh sederhana verifikasi
-//                boolean verifikasiBerhasil = (outlet.equals("outlet yang benar") && karyawan.equals("karyawan yang benar"));
-
-                // Jika verifikasi berhasil, pindahkan pengguna ke halaman kasir_page
-                Intent intent = new Intent(LoginPage.this, HomeFragment.class);
+                Intent intent = new Intent(LoginPage.this, MainActivity.class);
                 intent.putExtra("outlet", outlet);
                 intent.putExtra("karyawan", karyawan);
                 startActivity(intent);
