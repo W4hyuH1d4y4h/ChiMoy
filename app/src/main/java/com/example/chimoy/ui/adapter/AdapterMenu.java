@@ -49,7 +49,6 @@ public class AdapterMenu extends RecyclerView.Adapter<AdapterMenu.ViewHolder> {
         public ViewHolder(View itemView) {
             super(itemView);
             nama_produk = itemView.findViewById(R.id.tv_namaMakanan);
-            nama_produk = itemView.findViewById(R.id.tv_namaMakanan);
             gambar = itemView.findViewById(R.id.iv_makanan);
             harga_produk = itemView.findViewById(R.id.tv_hargaMakanan);
         }
