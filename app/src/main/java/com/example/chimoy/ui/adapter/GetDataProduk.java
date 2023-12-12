@@ -2,7 +2,7 @@ package com.example.chimoy.ui.adapter;
 
 public class GetDataProduk {
     String nama_produk = "";
-    Integer gambar = null;
+    Integer gambar = 0;
     String harga_produk = "";
 
     public  GetDataProduk(String nama_produk, Integer gambar, String harga_produk){
@@ -10,6 +10,7 @@ public class GetDataProduk {
         this.gambar = gambar;
         this.harga_produk = harga_produk;
     }
+
     public String getNama_produk() {
         return nama_produk;
     }
