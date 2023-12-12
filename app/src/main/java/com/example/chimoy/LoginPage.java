@@ -30,8 +30,11 @@ public class LoginPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Dapatkan nilai outlet dan karyawan dari input pengguna
-                String outlet = outletEditText.getText().toString();
-                String karyawan = karyawanEditText.getText().toString();
+                String outlet = outletEditText.getText().toString().trim();
+                String karyawan = karyawanEditText.getText().toString().trim();
+
+
+
                 Intent intent = new Intent(LoginPage.this, MainActivity.class);
                 intent.putExtra("outlet", outlet);
                 intent.putExtra("karyawan", karyawan);
